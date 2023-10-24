@@ -87,7 +87,9 @@ body{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-
+    width: 60%;
+    margin-inline: auto;
+    
 }
 
 .proj1{
@@ -96,7 +98,7 @@ body{
     height: 17rem;
     border-radius: 1rem;
     text-align: center;
-    
+    margin-bottom: 2rem;
 }
 
 .projects img{
