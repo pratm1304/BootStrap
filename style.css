@@ -39,3 +39,82 @@ body{
 }
 
 
+.skill-box{
+    
+    display: flex;
+    height: 12rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box1{
+    background-color: rgba(255, 0, 0, 0.554);
+    width: 12rem;
+    height: 12rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+
+}
+
+.box2{
+    background-color: rgba(85, 255, 0, 0.646);
+    width: 12rem;
+    height: 12rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+
+}
+
+.box3{
+    background-color: rgba(0, 166, 255, 0.682);
+    width: 12rem;
+    height: 12rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+
+
+}
+
+.p-logo img{
+    width: 5rem;
+    border-radius: 0.9rem;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.proj1{
+    background-color: rgba(230, 238, 175, 0.561);
+    width: 16rem;
+    height: 17rem;
+    border-radius: 1rem;
+    text-align: center;
+    
+}
+
+.projects img{
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.projects p{
+    font-size: large;
+    font-weight: 400;
+}
+
+.proj2{
+    background-color: rgba(175, 228, 238, 0.611);
+    width: 16rem;
+    height: 17rem;
+    border-radius: 1rem;
+    text-align: center;
+    
+}
+
