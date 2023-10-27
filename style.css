@@ -88,6 +88,11 @@ body{
     border-radius: 0.9rem;
 }
 
+.project {
+    margin-top: 20rem;
+}
+
+
 .projects{
     display: flex;
     justify-content: space-evenly;
