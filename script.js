@@ -27,6 +27,7 @@ let homebtn = document.querySelector("#homebtn");
 let morebtn = document.querySelector("#morebtn");
 let projbtn = document.querySelector("#projbtn");
 let gallerybtn = document.querySelector("#gallerybtn");
+let tagcolor = document.querySelector(".tagcolor");
 
 let isDarkMode = false;
 
@@ -44,6 +45,7 @@ function changeMode() {
     proj2.style.border = "1px solid white";
     skillbox1.style.backgroundColor = "rgb(153 26 26 / 98%)";
     skillbox2.style.backgroundColor = "rgb(137 255 78 / 65%)";
+    skillbox3.style.backgroundColor = "rgb(255 201 39)";
 
     skillbox1.style.boxShadow = "3px 3px #df9a9a";
     skillbox2.style.boxShadow = "3px 3px #c6f5c6";
@@ -55,7 +57,7 @@ function changeMode() {
     morebtn.style.boxShadow = "1px 1px white";
     projbtn.style.boxShadow = "1px 1px white";
     gallerybtn.style.boxShadow = "1px 1px white";
-
+    tagcolor.style.backgroundColor = "#ff8711";
     
     } 
     
@@ -71,6 +73,7 @@ function changeMode() {
     proj1.style.backgroundColor = "rgba(230, 238, 175, 0.561)";
     proj2.style.backgroundColor = "rgba(175, 228, 238, 0.611)";
     proj2.style.border = "none";
+    tagcolor.style.backgroundColor = "#0D6EFD";
         
     }
     changeImg();
