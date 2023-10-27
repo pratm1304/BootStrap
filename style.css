@@ -47,6 +47,11 @@ body{
     flex-wrap: wrap;
 }
 
+.skill-box p{
+    font-weight: 500;
+    
+}
+
 .box1{
     background-color: rgba(255, 0, 0, 0.554);
     width: 12rem;
@@ -108,7 +113,7 @@ body{
 
 .projects p{
     font-size: large;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .proj2{
