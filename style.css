@@ -4,7 +4,7 @@ body{
 }
 
 .MainHeading{
-    margin: 23rem 0 25rem 0;
+    margin: 15rem 0 25rem 0;
     text-align: center;
 }
 
@@ -51,6 +51,7 @@ body{
     font-weight: 500;
     
 }
+
 
 .box1{
     background-color: rgba(255, 0, 0, 0.554);
@@ -128,5 +129,26 @@ body{
     border-radius: 1rem;
     text-align: center;
     
+}
+
+.modeDiv img {
+    width: 36px;
+    height: 42px;
+    
+
+
+}
+
+
+
+.navbar{
+    background-color: rgba(255, 193, 7, 1);
+    z-index: 10;
+    
+}
+
+#homebtn {
+    background-color: #2faa44;
+    color: white;
 }
 
