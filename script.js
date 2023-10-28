@@ -22,6 +22,8 @@ let navbar = document.querySelector(".navbar");
 let navbarLine = document.querySelector(".line");
 let proj1 = document.querySelector(".proj1");
 let proj2 = document.querySelector(".proj2");
+let projectbox = document.querySelector(".project");
+
 let skillbox1 = document.querySelector(".box1");
 let skillbox2 = document.querySelector(".box2");
 let skillbox3 = document.querySelector(".box3");
@@ -32,7 +34,21 @@ let projbtn = document.querySelector("#projbtn");
 let gallerybtn = document.querySelector("#gallerybtn");
 let tagcolor = document.querySelector(".tagcolor");
 
-let isDarkMode = false;
+
+
+
+  
+
+
+projbtn.addEventListener("click", function() {
+    projectbox.scrollIntoView();
+  });
+homebtn.addEventListener("click", function() {
+    navbar.scrollIntoView();
+  });
+  
+  
+  let isDarkMode = false;
 
 
 function changeMode() {
@@ -59,6 +75,7 @@ function changeMode() {
     homebtn.style.boxShadow = "1px 1px white";
     morebtn.style.boxShadow = "1px 1px white";
     projbtn.style.boxShadow = "1px 1px white";
+    
     gallerybtn.style.boxShadow = "1px 1px white";
     tagcolor.style.backgroundColor = "#ff8711";
     
