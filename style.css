@@ -55,8 +55,8 @@ body{
 
 .box1{
     background-color: rgba(255, 0, 0, 0.554);
-    width: 12rem;
-    height: 12rem;
+    width: 14rem;
+    height: 14rem;
     margin: 1rem;
     border-radius: 1rem;
     text-align: center;
@@ -65,8 +65,8 @@ body{
 
 .box2{
     background-color: rgba(85, 255, 0, 0.646);
-    width: 12rem;
-    height: 12rem;
+    width: 14rem;
+    height: 14rem;
     margin: 1rem;
     border-radius: 1rem;
     text-align: center;
@@ -75,8 +75,8 @@ body{
 
 .box3{
     background-color: rgba(0, 166, 255, 0.682);
-    width: 12rem;
-    height: 12rem;
+    width: 14rem;
+    height: 14rem;
     margin: 1rem;
     border-radius: 1rem;
     text-align: center;
@@ -157,3 +157,31 @@ body{
     color: white;
 }
 
+.lastUpdated {
+    text-align: center;
+    font-weight: 500;
+    margin-top: 2rem;
+    font-style: italic;
+}
+
+.socialicons {
+    
+    height: 2rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.appicons {
+    height: 100%;
+    width: 2rem;
+    margin-inline-start: 2rem;
+}
+
+.appicons img {
+    width: 100%;
+    height: 100%;
+
+}
