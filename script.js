@@ -7,6 +7,9 @@ function checkScreenSize(){
     if(window.innerWidth<520){
         projbox.style.marginTop = "50rem";
     }
+    else if(window.innerWidth<840 && window.innerWidth>520 ){
+        projbox.style.marginTop = "50rem";
+    }
 }
 
 window.addEventListener("load", checkScreenSize);
